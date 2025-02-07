@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+::-webkit-scrollbar {
+	width: 0;
+}
+
+.App {
+	width: 100%;
+	height: 7962;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.Header {
+	width: 100%;
+	height: 115px;
+}
+
+.Main {
+	width: 100%;
+	height: 7965px;
+}
+
+@font-face {
+	font-family: 'ProxiReg';
+
+	src: url('../Fonts/Proxima Nova/ProximaNova-Regular.woff') format('woff');
+
+	font-weight: normal;
+
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ProxiBold';
+
+	src: url('../Fonts/Proxima Nova/ProximaNova-Bold.woff') format('woff');
+
+	font-weight: bold;
+
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ProxiLig';
+
+	src: url('../Fonts/Proxima Nova/ProximaNova-Light.woff') format('woff');
+
+	font-weight: normal;
+
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'RuberReg';
+
+	src: url('../Fonts/Ruberoid/Ruberoid-Regular.woff') format('woff');
+
+	font-weight: normal;
+
+	font-style: normal;
+}
+@font-face {
+	font-family: 'RuberBold';
+
+	src: url('../Fonts/Ruberoid/Ruberoid-Bold.woff') format('woff');
+
+	font-weight: bold;
+
+	font-style: normal;
+}
+@font-face {
+	font-family: 'RuberLig';
+
+	src: url('../Fonts/Ruberoid/Ruberoid-Light.woff') format('woff');
+
+	font-weight: normal;
+
+	font-style: normal;
+}
+@font-face {
+	font-family: 'RuberSemiBold';
+
+	src: url('../Fonts/Ruberoid/Ruberoid-SemiBold.woff') format('woff');
+
+	font-weight: normal;
+
+	font-style: normal;
+}

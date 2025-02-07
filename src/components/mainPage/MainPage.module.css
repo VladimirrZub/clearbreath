@@ -1,0 +1,15 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.mainContainer {
+	width: 100%;
+	height: 820px;
+	background-image: url(./Images/MainIMG.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 1;
+	top: -115px;
+}
