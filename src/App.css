@@ -24,6 +24,7 @@
 .Main {
 	width: 100%;
 	height: 7965px;
+	z-index: 1;
 }
 
 @font-face {

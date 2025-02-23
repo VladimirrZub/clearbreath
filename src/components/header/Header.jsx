@@ -7,18 +7,16 @@ const Header = () => {
 			<div className={s.headerMainContainer}>
 				<div className={s.headerLogo}></div>
 				<div className={s.headerInfo}>
-					<div className={s.infoText}>Услуги</div>
-					<div className={s.infoText}>О Нас</div>
-					<div className={s.infoText}>Польза Продукта</div>
-					<div className={s.infoText}>Оборудование</div>
-					<div className={s.infoText}>Этапы Работы</div>
-					<div className={s.infoText}>Отзывы</div>
+					<div className={s.infoText}>услуги</div>
+					<div className={s.infoText}>о нас</div>
+					<div className={s.infoText}>польза продукта</div>
+					<div className={s.infoText}>оборудование</div>
+					<div className={s.infoText}>этапы работы</div>
+					<div className={s.infoText}>отзывы</div>
 				</div>
-				<div className={s.headerButton}>
-					<button className={s.buttonSecStyle}>
-						<button className={s.buttonFeedback}>СВЯЗАТЬСЯ</button>
-					</button>
-				</div>
+				<button className={s.headerButton}>
+					<button className={s.buttonSecStyle}>СВЯЗАТЬСЯ</button>
+				</button>
 			</div>
 		</div>
 	)
