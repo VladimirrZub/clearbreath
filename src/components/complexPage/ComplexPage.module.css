@@ -1,0 +1,234 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.mainContainer {
+	width: 100%;
+	height: 850px;
+	display: flex;
+	justify-content: start;
+	align-items: start;
+	flex-direction: column;
+	background-image: url(./Images/MainImg.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: relative;
+	top: -115px;
+}
+
+.containerContain {
+	width: 1560px;
+	height: 680px;
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+	flex-direction: column;
+	margin-left: 180px;
+	margin-top: 15px;
+}
+
+.containTop {
+	width: 1155px;
+	height: 160px;
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	flex-direction: column;
+}
+
+.topTextDown {
+	width: 1155px;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+
+.topTextUp {
+	font-family: 'RuberSemiBold';
+	font-size: 60px;
+	line-height: 80px;
+	color: rgba(73, 94, 76, 1);
+}
+
+.TextDownTxt {
+	font-family: 'RuberSemiBold';
+	font-size: 60px;
+	line-height: 80px;
+	color: rgba(73, 94, 76, 1);
+}
+
+.TextDownLine {
+	width: 315px;
+	height: 4px;
+	margin-right: 15px;
+}
+
+.containMid {
+	width: 1560px;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.midBoxsTop {
+	width: 1560px;
+	height: 180px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.midBoxsDown {
+	width: 1560px;
+	height: 180px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.boxsTop {
+	width: 345px;
+	height: 180px;
+	border-radius: 34px;
+	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	box-shadow: 0 0 13px rgba(73, 93, 76, 0.5);
+}
+
+.boxsImgTop1 {
+	width: 345px;
+	height: 125px;
+	border-radius: 34px 34px 0 0;
+	background-image: url(./Images/KVOff.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: none;
+	margin-top: -1px;
+	margin-left: -0.5px;
+}
+.boxsImgTop2 {
+	width: 345px;
+	height: 125px;
+	border-radius: 34px 34px 0 0;
+	background-image: url(./Images/Maga.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: none;
+	margin-top: -1px;
+	margin-left: -0.5px;
+}
+.boxsImgTop3 {
+	width: 345px;
+	height: 125px;
+	border-radius: 34px 34px 0 0;
+	background-image: url(./Images/Sport.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: none;
+	margin-top: -1px;
+	margin-left: -0.5px;
+}
+.boxsImgTop4 {
+	width: 345px;
+	height: 125px;
+	border-radius: 34px 34px 0 0;
+	background-image: url(./Images/Bass.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: none;
+	margin-top: -1px;
+	margin-left: -0.5px;
+}
+
+.boxsTextTop {
+	font-family: 'RuberMed';
+	width: 345px;
+	height: 55px;
+	margin-left: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	font-size: 21px;
+	color: rgba(120, 192, 129, 1);
+}
+
+.boxsDown {
+	width: 345px;
+	height: 180px;
+	border-radius: 34px;
+	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	box-shadow: 0 0 13px rgba(73, 93, 76, 0.5);
+}
+
+.boxsTextDown {
+	font-family: 'RuberMed';
+	width: 345px;
+	height: 55px;
+	margin-left: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	font-size: 21px;
+	color: rgba(120, 192, 129, 1);
+}
+
+.boxsImgDown1 {
+	width: 345px;
+	height: 125px;
+	border-radius: 34px 34px 0 0;
+	background-image: url(./Images/Dom.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: none;
+	margin-top: -1px;
+	margin-left: -0.5px;
+}
+
+.boxsImgDown2 {
+	width: 345px;
+	height: 125px;
+	border-radius: 34px 34px 0 0;
+	background-image: url(./Images/Cafe.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: none;
+	margin-top: -1px;
+	margin-left: -0.5px;
+}
+.boxsImgDown3 {
+	width: 345px;
+	height: 125px;
+	border-radius: 34px 34px 0 0;
+	background-image: url(./Images/Zub.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: none;
+	margin-top: -1px;
+	margin-left: -0.5px;
+}
+.boxsImgDown4 {
+	width: 345px;
+	height: 125px;
+	border-radius: 34px 34px 0 0;
+	background-image: url(./Images/Spa.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: none;
+	margin-top: -1px;
+	margin-left: -0.5px;
+}

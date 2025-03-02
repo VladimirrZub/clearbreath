@@ -37,6 +37,15 @@
 	font-style: normal;
 }
 @font-face {
+	font-family: 'ProxiSemi';
+
+	src: url('../Fonts/Proxima Nova/ProximaNova-Semibold.woff') format('woff');
+
+	font-weight: normal;
+
+	font-style: normal;
+}
+@font-face {
 	font-family: 'ProxiBold';
 
 	src: url('../Fonts/Proxima Nova/ProximaNova-Bold.woff') format('woff');
@@ -86,6 +95,16 @@
 	font-family: 'RuberSemiBold';
 
 	src: url('../Fonts/Ruberoid/Ruberoid-SemiBold.woff') format('woff');
+
+	font-weight: normal;
+
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'RuberMed';
+
+	src: url('../Fonts/Ruberoid/Ruberoid-Medium.woff') format('woff');
 
 	font-weight: normal;
 

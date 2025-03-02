@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.mainContainer {
+	width: 100%;
+	height: 700px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+	top: -115px;
+}
+
+.containerContain {
+	width: 1560px;
+	height: 520px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.containInfo {
+	width: 1560px;
+	height: 200px;
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.infoLeft {
+	width: 690px;
+	height: 175px;
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.leftTopInfo {
+	width: 680px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.topInfoText {
+	width: 520px;
+	height: 80px;
+	font-family: 'RuberSemiBold';
+	color: rgba(73, 94, 76, 1);
+	line-height: 80px;
+	font-size: 60px;
+}
+
+.topInfoLine {
+	width: 135px;
+	height: 3px;
+}
+
+.leftBottomInfo {
+	width: 690px;
+	height: 80px;
+	font-family: 'RuberSemiBold';
+	color: rgba(73, 94, 76, 1);
+	line-height: 80px;
+	font-size: 60px;
+}
+.infoRight {
+	width: 750px;
+	height: 200px;
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.rightTopInfo {
+	font-family: 'RuberMed';
+	font-size: 35px;
+	color: rgba(120, 192, 129, 1);
+}
+
+.rightBottomInfo {
+	width: 750px;
+	height: 135px;
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.bottomInfoBox {
+	display: flex;
+	align-items: start;
+	justify-content: start;
+	flex-direction: row;
+}
+.infoBoxImage {
+	width: 23px;
+	height: 23px;
+	background-image: url(./Images/Cooleer.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.infoBoxText {
+	font-family: 'ProxiReg';
+	font-size: 21px;
+	color: rgba(124, 163, 129, 1);
+	margin-left: 10px;
+}
+
+.containImage {
+	width: 100%;
+	height: 170px;
+	background-image: url(./Images/MainIMG.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.containText {
+	width: 1265px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.containText > div {
+	font-family: 'ProxiSemi';
+	font-size: 32px;
+	color: rgba(73, 94, 76, 1);
+}
+
+.containAll {
+	width: 100%;
+	height: 225px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	margin-bottom: 175px;
+}
+
+.containText div:nth-child(1) {
+	margin-left: 5px;
+}
+.containText div:nth-child(2) {
+	margin-left: -35px;
+}
+.containText div:nth-child(3) {
+	margin-right: 25px;
+}

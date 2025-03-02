@@ -1,0 +1,249 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.mainUslugi {
+	width: 100%;
+	height: 1000px;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	flex-direction: row;
+	position: relative;
+	top: -115px;
+}
+
+.uslugiInfoAndBTN {
+	width: 1740px;
+	height: 875px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-top: 35px;
+}
+
+.infoLeft {
+	width: 600px;
+	height: 700px;
+	display: flex;
+	align-items: start;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.rightTop {
+	font-family: 'RuberSemiBold';
+	font-size: 60px;
+	line-height: 80px;
+	color: rgba(73, 94, 76, 1);
+}
+
+.rightUnderTop {
+	width: 600px;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+
+.underTopText {
+	font-family: 'RuberSemiBold';
+	font-size: 60px;
+	line-height: 80px;
+	color: rgba(73, 94, 76, 1);
+}
+
+.underTopLine {
+	width: 325px;
+	height: 3px;
+}
+
+.rightDown {
+	width: 600px;
+	height: 490px;
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+	flex-direction: column;
+	margin-top: 30px;
+}
+
+.downText {
+	font-family: 'ProxiReg';
+	font-size: 21px;
+	line-height: 35px;
+	color: rgba(132, 132, 132, 1);
+}
+
+.infoRight {
+	width: 1000px;
+	height: 875px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.infoBTNs {
+	width: 100px;
+	height: 650px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 60px 0 0 60px;
+	background-color: rgba(217, 250, 221, 1);
+}
+
+.topBTN {
+	transform: rotate(270deg);
+	width: 310px;
+	height: 87px;
+	border-top-right-radius: 54px;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	box-shadow: inset 0px 0px 5px 0.5px rgba(34, 111, 33, 0.36);
+	background-color: rgba(92, 205, 106, 1);
+	margin-right: -10px;
+}
+
+.BTNImageTop {
+	width: 44px;
+	height: 44px;
+	background-image: url(./Images/ButtonVint.svg);
+	background-repeat: no-repeat;
+	margin-left: 20px;
+}
+
+.BTNTextTop {
+	font-family: 'ProxiReg';
+	font-size: 19px;
+	color: #ffffff;
+}
+
+.downBTN {
+	transform: rotate(270deg);
+	width: 310px;
+	height: 87px;
+	border-top-left-radius: 54px;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin-right: -10px;
+	background-color: #ffffff;
+	margin-top: 225px;
+}
+
+.BTNImageDown {
+	width: 44px;
+	height: 44px;
+	background-image: url(./Images/ButtonCond.svg);
+	background-repeat: no-repeat;
+	margin-left: 20px;
+	transform: rotate(90deg);
+}
+.BTNTextDown {
+	font-family: 'ProxiReg';
+	font-size: 19px;
+	color: #7ca281;
+}
+
+.rightMain {
+	width: 900px;
+	height: 875px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	border-radius: 87px 0 0 87px;
+	background-color: rgba(217, 250, 221, 1);
+}
+
+.mainTextBlock {
+	width: 575px;
+	height: 570px;
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+	flex-direction: column;
+	margin-left: 55px;
+}
+
+.textBlock {
+	width: 475px;
+	height: 85px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+
+.blockImage1 {
+	width: 50px;
+	height: 50px;
+	background-image: url(./Images/Pencil.svg);
+	background-repeat: no-repeat;
+	padding-left: 25px;
+}
+
+.blockText {
+	font-family: 'ProxiReg';
+	font-size: 27px;
+	line-height: 40px;
+	color: rgba(73, 93, 76, 1);
+	margin-left: 10px;
+}
+
+.blockImage2 {
+	width: 50px;
+	height: 50px;
+	background-image: url(./Images/Vent.svg);
+	background-repeat: no-repeat;
+	padding-left: 25px;
+}
+.blockImage3 {
+	width: 50px;
+	height: 50px;
+	background-image: url(./Images/Vitashka.svg);
+	background-repeat: no-repeat;
+	padding-left: 25px;
+}
+.blockImage4 {
+	width: 50px;
+	height: 50px;
+	background-image: url(./Images/Water.svg);
+	background-repeat: no-repeat;
+	padding-left: 25px;
+}
+.blockImage5 {
+	width: 50px;
+	height: 50px;
+	background-image: url(./Images/Gpu.svg);
+	background-repeat: no-repeat;
+	padding-left: 25px;
+}
+.blockImage6 {
+	width: 50px;
+	height: 50px;
+	background-image: url(./Images/Bit.svg);
+	background-repeat: no-repeat;
+	padding-left: 25px;
+}
+
+.mainImage {
+	width: 320px;
+	height: 875px;
+	background-image: url(./Images/MainIMG1.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 87px 0 0 87px;
+	box-shadow: 0 0 130px rgba(73, 93, 76, 0.5);
+}

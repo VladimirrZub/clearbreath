@@ -1,6 +1,9 @@
 import './App.css'
 import Header from './components/header/Header'
 import MainPage from './components/mainPage/MainPage'
+import UslugiPage from './components/uslugiPage/UslugiPage'
+import ComplexPage from './components/complexPage/ComplexPage'
+import StepsPage from './components/stepsPage/StepsPage'
 
 function App() {
 	return (
@@ -10,6 +13,9 @@ function App() {
 			</div>
 			<div className='Main'>
 				<MainPage />
+				<UslugiPage />
+				<ComplexPage />
+				<StepsPage />
 			</div>
 			<div className='Footer'></div>
 		</div>
