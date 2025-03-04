@@ -4,6 +4,7 @@ import MainPage from './components/mainPage/MainPage'
 import UslugiPage from './components/uslugiPage/UslugiPage'
 import ComplexPage from './components/complexPage/ComplexPage'
 import StepsPage from './components/stepsPage/StepsPage'
+import MiniPage from './components/miniPage/MiniPage'
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 				<UslugiPage />
 				<ComplexPage />
 				<StepsPage />
+				<MiniPage />
 			</div>
 			<div className='Footer'></div>
 		</div>
