@@ -50,11 +50,9 @@
 	width: 280px;
 	height: 100px;
 	border-radius: 20px;
-	width: 280px;
-	height: 100px;
-	border-radius: 20px;
 	border: none;
 	background-color: rgba(255, 255, 255, 0.3);
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: row;
@@ -71,5 +69,6 @@
 	background-color: #5ccd6a;
 	border: none;
 	box-shadow: inset 0px 0px 5px 0.5px rgba(34, 111, 33, 0.36);
-	letter-spacing: 2px;
+	letter-spacing: 1px;
+	padding-top: 6px;
 }

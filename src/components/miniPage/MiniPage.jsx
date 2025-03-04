@@ -1,5 +1,5 @@
 import React from 'react'
-import s from '../miniPage/MiniPage.module.css'
+import s from './MiniPage.module.css'
 
 const MiniPage = () => {
 	return (
@@ -9,9 +9,8 @@ const MiniPage = () => {
 					Оставьте заявку и мы с вами свяжемся
 				</div>
 				<div className={s.containInputs}>
-					<div className={s.inputName}></div>
-					<div className={s.inputPhone}></div>
-					<div className={s.inputBTN}></div>
+					<input type='text' id='inputName' name='inputName' required></input>
+					<input type='tel' id='inputPhone' name='inputPhone' required></input>
 					<button className={s.inputBTN}>
 						<button className={s.BTNSecStyle}>ОТПРАВИТЬ</button>
 					</button>
