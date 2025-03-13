@@ -1,5 +1,5 @@
 import React from 'react'
-import s from '../miniPage/MiniPage.module.css'
+import s from './MiniPage.module.css'
 
 const MiniPage = () => {
 	return (
