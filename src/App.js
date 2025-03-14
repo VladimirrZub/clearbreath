@@ -21,7 +21,6 @@ function App() {
 				<MiniPage />
 				<AboutUsPage />
 			</div>
-			<div className='Footer'></div>
 		</div>
 	)
 }
