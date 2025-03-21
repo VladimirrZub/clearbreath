@@ -100,3 +100,26 @@
 	justify-content: space-between;
 	flex-direction: row;
 }
+
+.infoRight {
+	width: 700px;
+	height: 430px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.boxUp {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.boxBot {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+}
