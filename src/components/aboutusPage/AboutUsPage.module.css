@@ -111,6 +111,8 @@
 }
 
 .boxUp {
+	width: 685px;
+	height: 152px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -118,8 +120,33 @@
 }
 
 .boxBot {
+	width: 685px;
+	height: 152px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	flex-direction: row;
+}
+.rightBox {
+	width: 300px;
+	height: 155px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+	flex-direction: column;
+	position: relative;
+	z-index: 10;
+}
+
+.circle {
+	width: 300px;
+	height: 155px;
+	position: absolute;
+	background-image: url(./Images/Circle.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	filter: blur(33px);
+	z-index: 1;
 }
