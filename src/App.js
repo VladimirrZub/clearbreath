@@ -6,6 +6,7 @@ import ComplexPage from './components/complexPage/ComplexPage'
 import StepsPage from './components/stepsPage/StepsPage'
 import MiniPage from './components/miniPage/MiniPage'
 import AboutUsPage from './components/aboutusPage/AboutUsPage'
+import ComfortPage from './components/comfortPage/ComfortPage'
 
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
 				<StepsPage />
 				<MiniPage />
 				<AboutUsPage />
+				<ComfortPage />
 			</div>
 		</div>
 	)
