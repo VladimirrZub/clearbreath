@@ -73,11 +73,13 @@
 	width: 700px;
 	height: 775px;
 	background-color: #ffffff;
-	box-shadow: 0 0 13px rgba(73, 93, 76, 0.1);
+	box-shadow: 10px 10px 100px 13px rgba(73, 93, 76, 0.1);
 	border-radius: 67px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	position: relative;
+	z-index: 11;
 }
 
 .leftText {
@@ -149,4 +151,58 @@
 	background-size: contain;
 	filter: blur(33px);
 	z-index: 1;
+}
+
+.circle2 {
+	width: 300px;
+	height: 155px;
+	position: absolute;
+	background-image: url(./Images/Circle.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	filter: blur(33px);
+	z-index: 1;
+	top: 235px;
+	right: 190px;
+}
+.circle3 {
+	width: 300px;
+	height: 155px;
+	position: absolute;
+	background-image: url(./Images/Circle.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	filter: blur(33px);
+	z-index: 1;
+	top: 510px;
+	right: 575px;
+}
+
+.circle4 {
+	width: 300px;
+	height: 155px;
+	position: absolute;
+	background-image: url(./Images/Circle.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	filter: blur(33px);
+	z-index: 1;
+	top: 510px;
+	right: 190px;
+}
+
+.circleBig {
+	width: 888px;
+	height: 666px;
+	position: absolute;
+	background-image: url(./Images/Circle.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	filter: blur(133px);
+	z-index: 1;
+	left: -100px;
 }

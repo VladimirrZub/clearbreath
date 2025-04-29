@@ -5,6 +5,7 @@ const AboutUsPage = () => {
 	return (
 		<div className={s.mainContainer}>
 			<div className={s.containerInfo}>
+				<div className={s.circleBig}></div>
 				<div className={s.infoLeft}>
 					<div className={s.leftText}>
 						<div className={s.topText}>
@@ -52,18 +53,18 @@ const AboutUsPage = () => {
 								как единое целое
 							</div>
 						</div>
-						<div className={s.boxUp2}>
-							<div className={s.rightBox}>
-								<div className={s.boxTextUp}>
-									<span className={s.bigNumber}>+ 11{'\u00A0'}</span>лет стажа
-								</div>
-								<div className={s.boxTextBot}>
-									Опытные и обученые специалисты своего дела
-								</div>
+						<div className={s.circle2}></div>
+						<div className={s.rightBox}>
+							<div className={s.boxTextUp}>
+								<span className={s.bigNumber}>+ 11{'\u00A0'}</span>лет стажа
+							</div>
+							<div className={s.boxTextBot}>
+								Опытные и обученые специалисты своего дела
 							</div>
 						</div>
 					</div>
 					<div className={s.boxBot}>
+						<div className={s.circle3}></div>
 						<div className={s.rightBox}>
 							<div className={s.boxTextUp}>
 								<span className={s.bigNumber}>+ 180{'\u00A0'}</span>
@@ -74,6 +75,7 @@ const AboutUsPage = () => {
 								<br /> клиентов за этот период
 							</div>
 						</div>
+						<div className={s.circle4}></div>
 						<div className={s.rightBox}>
 							<div className={s.boxTextUp}>
 								<span className={s.bigNumber}>+ 470{'\u00A0'}</span>проектов
