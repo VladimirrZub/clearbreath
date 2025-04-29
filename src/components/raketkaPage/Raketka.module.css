@@ -1,0 +1,211 @@
+.infoTopText {
+	font-family: 'RuberSemiBold';
+	color: rgba(73, 94, 76, 1);
+	line-height: 80px;
+	font-size: 60px;
+}
+
+.boxTopText {
+	font-family: 'RuberMed';
+	font-size: 47px;
+	color: rgba(120, 192, 129, 1);
+	position: relative;
+	z-index: 10;
+}
+
+.boxBotText {
+	font-family: 'ProxiReg';
+	line-height: 35px;
+	font-size: 21px;
+	color: rgba(73, 94, 76, 1);
+	position: relative;
+	z-index: 10;
+	margin-top: 10px;
+	white-space: nowrap;
+}
+.botText {
+	font-family: 'RuberMed';
+	font-size: 47px;
+	color: rgba(120, 192, 129, 1);
+	position: relative;
+	z-index: 2;
+}
+
+.boxImage1 {
+	width: 414px;
+	height: 402px;
+	background-image: url(./Images/img1.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	pointer-events: none;
+	z-index: 1;
+	left: 400px;
+}
+
+.boxImage2 {
+	width: 551px;
+	height: 340px;
+	background-image: url(./Images/img2.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	pointer-events: none;
+	z-index: 1;
+	left: 265px;
+}
+
+.boxImage3 {
+	width: 374px;
+	height: 402px;
+	background-image: url(./Images/img3.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	pointer-events: none;
+	z-index: 1;
+	left: 340px;
+	bottom: 400px;
+}
+
+.boxImage4 {
+	width: 403px;
+	height: 364px;
+	background-image: url(./Images/img4.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	pointer-events: none;
+	z-index: 1;
+	right: 400px;
+}
+
+.boxImage5 {
+	width: 387px;
+	height: 368px;
+	background-image: url(./Images/img5.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	pointer-events: none;
+	z-index: 1;
+	right: 500px;
+}
+
+.boxImage6 {
+	width: 402px;
+	height: 253px;
+	background-image: url(./Images/img6.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	pointer-events: none;
+	z-index: 1;
+	right: 550px;
+	bottom: 235px;
+}
+
+.vidIMG {
+	width: 1101px;
+	height: 1213px;
+	background-image: url(./Images/main.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	pointer-events: none;
+	z-index: 3;
+	left: 380px;
+	top: 580px;
+}
+
+.mainContainer {
+	width: 100%;
+	height: 2000px;
+	position: relative;
+	top: -115px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.containerInfo {
+	width: 1560px;
+	height: 1770px;
+	padding-top: 100px;
+	display: flex;
+	align-items: start;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.infoMainVid {
+	width: 1560px;
+	height: 1475px;
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+}
+
+.vidLeft {
+	width: 660px;
+	height: 1270px;
+}
+
+.vidLeft > div {
+	text-align: start;
+}
+
+.vidLeft .vidBox {
+	width: 750px;
+	height: 400px;
+	display: flex;
+	align-items: start;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.vidRight {
+	width: 770px;
+	height: 1270px;
+	padding-top: 175px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.vidRight > div {
+	text-align: end;
+}
+
+.vidRight .vidBox {
+	width: 750px;
+	height: 400px;
+	display: flex;
+	align-items: end;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.infoBot {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.botIMG {
+	width: 536px;
+	height: 133px;
+	background-image: url(./Images/hands.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	pointer-events: none;
+}

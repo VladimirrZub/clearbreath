@@ -7,6 +7,7 @@ import StepsPage from './components/stepsPage/StepsPage'
 import MiniPage from './components/miniPage/MiniPage'
 import AboutUsPage from './components/aboutusPage/AboutUsPage'
 import ComfortPage from './components/comfortPage/ComfortPage'
+import RaketkaPage from './components/raketkaPage/RaketkaPage'
 
 function App() {
 	return (
@@ -22,6 +23,7 @@ function App() {
 				<MiniPage />
 				<AboutUsPage />
 				<ComfortPage />
+				<RaketkaPage />
 			</div>
 		</div>
 	)
