@@ -164,7 +164,7 @@
 	background-size: contain;
 	filter: blur(33px);
 	z-index: 1;
-	top: 235px;
+	top: 300px;
 	right: 190px;
 }
 .circle3 {
@@ -177,7 +177,7 @@
 	background-size: contain;
 	filter: blur(33px);
 	z-index: 1;
-	top: 510px;
+	top: 575px;
 	right: 575px;
 }
 
@@ -191,7 +191,7 @@
 	background-size: contain;
 	filter: blur(33px);
 	z-index: 1;
-	top: 510px;
+	top: 575px;
 	right: 190px;
 }
 

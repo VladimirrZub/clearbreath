@@ -12,7 +12,7 @@ const MiniPage = () => {
 					<input
 						type='text'
 						name='inputName'
-						placeholder='Введите текст здесь'
+						placeholder='Ваше Имя'
 						onclick="this.placeholder=''"
 						onblur="if (this.value == '') {this.placeholder='Введите текст здесь';}"
 						required
@@ -20,7 +20,7 @@ const MiniPage = () => {
 					<input
 						type='tel'
 						name='inputTel'
-						placeholder='Введите текст здесь'
+						placeholder='Номер Телефона'
 						onclick="this.placeholder=''"
 						onblur="if (this.value == '') {this.placeholder='Введите текст здесь';}"
 						required

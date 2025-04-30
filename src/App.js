@@ -8,6 +8,7 @@ import MiniPage from './components/miniPage/MiniPage'
 import AboutUsPage from './components/aboutusPage/AboutUsPage'
 import ComfortPage from './components/comfortPage/ComfortPage'
 import RaketkaPage from './components/raketkaPage/RaketkaPage'
+import Footer from './components/footer/Footer'
 
 function App() {
 	return (
@@ -24,6 +25,7 @@ function App() {
 				<AboutUsPage />
 				<ComfortPage />
 				<RaketkaPage />
+				<Footer />
 			</div>
 		</div>
 	)
