@@ -1,11 +1,13 @@
 import React from 'react'
 import s from './UslugiPage.module.css'
+import LAnimated from '../Animated/LAnimated'
+import RAnimated from '../Animated/RAnimated'
 
 const UslugiPage = () => {
 	return (
 		<div className={s.mainUslugi}>
 			<div className={s.uslugiInfoAndBTN}>
-				<div className={s.infoLeft}>
+				<LAnimated delay={1} className={s.infoLeft}>
 					<div className={s.rightTop}>Предоставляемые</div>
 					<div className={s.rightUnderTop}>
 						<div className={s.underTopText}>Услуги</div>
@@ -29,8 +31,8 @@ const UslugiPage = () => {
 							документации.
 						</div>
 					</div>
-				</div>
-				<div className={s.infoRight}>
+				</LAnimated>
+				<RAnimated delay={1} className={s.infoRight}>
 					<div className={s.infoBTNs}>
 						<button className={s.topBTN}>
 							<div className={s.BTNTextTop}>Система Вентиляции</div>
@@ -82,7 +84,7 @@ const UslugiPage = () => {
 						</div>
 						<div className={s.mainImage}></div>
 					</div>
-				</div>
+				</RAnimated>
 			</div>
 		</div>
 	)

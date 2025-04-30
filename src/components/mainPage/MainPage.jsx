@@ -1,10 +1,11 @@
 import React from 'react'
 import s from './MainPage.module.css'
+import LAnimated from '../Animated/LAnimated'
 
 const MainPage = () => {
 	return (
 		<div className={s.MainContainer}>
-			<div className={s.ContainerInfo}>
+			<LAnimated delay={1} className={s.ContainerInfo}>
 				<div className={s.ContainerInfoMain}>
 					<div className={s.infoMainTop}>Чистый Воздух</div>
 					<div className={s.infoMainBot}>
@@ -37,7 +38,7 @@ const MainPage = () => {
 				<button className={s.ContainerInfoBTN}>
 					<button className={s.infoBtn}>ОСТАВИТЬ ЗАЯВКУ</button>
 				</button>
-			</div>
+			</LAnimated>
 		</div>
 	)
 }

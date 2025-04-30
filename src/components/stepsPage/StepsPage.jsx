@@ -1,19 +1,22 @@
 import React from 'react'
 import s from './StepsPage.module.css'
+import LAnimated from '../Animated/LAnimated'
+import RAnimated from '../Animated/RAnimated'
+import BAnimated from '../Animated/BAnimated'
 
 const StepsPage = () => {
 	return (
 		<div className={s.mainContainer}>
 			<div className={s.containerContain}>
 				<div className={s.containInfo}>
-					<div className={s.infoLeft}>
+					<LAnimated delay={1} className={s.infoLeft}>
 						<div className={s.leftTopInfo}>
 							<div className={s.topInfoText}>3 Простых Шага</div>
 							<div className={s.topInfoLine}></div>
 						</div>
 						<div className={s.leftBottomInfo}>К Очищению Воздуха</div>
-					</div>
-					<div className={s.infoRight}>
+					</LAnimated>
+					<RAnimated delay={1} className={s.infoRight}>
 						<div className={s.rightTopInfo}>Кажется, Это Знак...</div>
 						<div className={s.rightBottomInfo}>
 							<div className={s.bottomInfoBox}>
@@ -38,17 +41,17 @@ const StepsPage = () => {
 								</div>
 							</div>
 						</div>
-					</div>
+					</RAnimated>
 				</div>
 			</div>
-			<div className={s.containAll}>
+			<BAnimated delay={1} className={s.containAll}>
 				<div className={s.containImage}></div>
 				<div className={s.containText}>
 					<div>Ваше желание</div>
 					<div>Заявка</div>
 					<div>Реализация</div>
 				</div>
-			</div>
+			</BAnimated>
 		</div>
 	)
 }

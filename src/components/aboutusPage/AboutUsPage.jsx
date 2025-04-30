@@ -1,12 +1,14 @@
 import React from 'react'
 import s from './AboutUsPage.module.css'
+import LAnimated from '../Animated/LAnimated'
+import RAnimated from '../Animated/RAnimated'
 
 const AboutUsPage = () => {
 	return (
 		<div className={s.mainContainer}>
 			<div className={s.containerInfo}>
-				<div className={s.circleBig}></div>
-				<div className={s.infoLeft}>
+				<LAnimated delay={1.5} className={s.circleBig}></LAnimated>
+				<LAnimated delay={1} className={s.infoLeft}>
 					<div className={s.leftText}>
 						<div className={s.topText}>
 							<div className={s.textTopUp}>
@@ -39,11 +41,11 @@ const AboutUsPage = () => {
 							</div>
 						</div>
 					</div>
-				</div>
+				</LAnimated>
 				<div className={s.infoRight}>
 					<div className={s.boxUp}>
-						<div className={s.circle}></div>
-						<div className={s.rightBox}>
+						<RAnimated delay={1.5} x={0} className={s.circle}></RAnimated>
+						<RAnimated delay={1} className={s.rightBox}>
 							<div className={s.boxTextUp}>
 								<span className={s.bigNumber}>10{'\u00A0'}</span>лет на рынке
 							</div>
@@ -52,20 +54,20 @@ const AboutUsPage = () => {
 								<br />
 								как единое целое
 							</div>
-						</div>
-						<div className={s.circle2}></div>
-						<div className={s.rightBox}>
+						</RAnimated>
+						<RAnimated delay={2} x={0} className={s.circle2}></RAnimated>
+						<RAnimated delay={1.5} className={s.rightBox}>
 							<div className={s.boxTextUp}>
 								<span className={s.bigNumber}>+ 11{'\u00A0'}</span>лет стажа
 							</div>
 							<div className={s.boxTextBot}>
 								Опытные и обученые специалисты своего дела
 							</div>
-						</div>
+						</RAnimated>
 					</div>
 					<div className={s.boxBot}>
-						<div className={s.circle3}></div>
-						<div className={s.rightBox}>
+						<RAnimated delay={2.5} x={0} className={s.circle3}></RAnimated>
+						<RAnimated delay={2} className={s.rightBox}>
 							<div className={s.boxTextUp}>
 								<span className={s.bigNumber}>+ 180{'\u00A0'}</span>
 								клиентов
@@ -74,16 +76,16 @@ const AboutUsPage = () => {
 								Число счастливых
 								<br /> клиентов за этот период
 							</div>
-						</div>
-						<div className={s.circle4}></div>
-						<div className={s.rightBox}>
+						</RAnimated>
+						<RAnimated delay={3} x={0} className={s.circle4}></RAnimated>
+						<RAnimated delay={2.5} className={s.rightBox}>
 							<div className={s.boxTextUp}>
 								<span className={s.bigNumber}>+ 470{'\u00A0'}</span>проектов
 							</div>
 							<div className={s.boxTextBot}>
 								Большое количество реализованных проектов
 							</div>
-						</div>
+						</RAnimated>
 					</div>
 				</div>
 			</div>

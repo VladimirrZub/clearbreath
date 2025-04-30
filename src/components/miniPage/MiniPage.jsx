@@ -1,14 +1,16 @@
 import React from 'react'
 import s from './MiniPage.module.css'
+import LAnimated from '../Animated/LAnimated'
+import BAnimated from '../Animated/BAnimated'
 
 const MiniPage = () => {
 	return (
 		<div className={s.mainContainer}>
 			<div className={s.containerContain}>
-				<div className={s.containText}>
+				<LAnimated delay={1} className={s.containText}>
 					Оставьте заявку и мы с вами свяжемся
-				</div>
-				<div className={s.containInputs}>
+				</LAnimated>
+				<BAnimated delay={1} className={s.containInputs}>
 					<input
 						type='text'
 						name='inputName'
@@ -28,7 +30,7 @@ const MiniPage = () => {
 					<button className={s.inputBTN}>
 						<button className={s.BTNSecStyle}>ОТПРАВИТЬ</button>
 					</button>
-				</div>
+				</BAnimated>
 			</div>
 		</div>
 	)
