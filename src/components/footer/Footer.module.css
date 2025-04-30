@@ -230,6 +230,7 @@ input::placeholder {
 	align-items: center;
 	justify-content: center;
 	flex-direction: row;
+	transition: background 0.3s ease 0.01s;
 }
 
 .BTNSecStyle {
@@ -244,4 +245,20 @@ input::placeholder {
 	border: none;
 	box-shadow: inset 0px 0px 5px 0.5px rgba(34, 111, 33, 0.36);
 	letter-spacing: 1px;
+	transition: background 0.3s ease 0.01s;
+}
+
+.inputBTN:hover {
+	cursor: pointer;
+	background-color: rgba(120, 192, 129, 0.25);
+	transition: 0.3s ease, background-color 0.3s ease;
+}
+.BTNSecStyle:hover {
+	cursor: pointer;
+	background-color: rgba(84, 225, 101, 1);
+	transition: 0.3s ease, background-color 0.3s ease;
+}
+.inputBTN:active,
+.BTNSecStyle:active {
+	transform: scale(0.96);
 }

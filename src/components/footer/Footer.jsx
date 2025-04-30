@@ -85,8 +85,10 @@ const Footer = () => {
 							required
 						></input>
 					</RAnimated>
-					<BAnimated delay={1} y={100} className={s.inputBTN}>
-						<button className={s.BTNSecStyle}>ОТПРАВИТЬ</button>
+					<BAnimated delay={1} y={100} className={s.BTNst}>
+						<button className={s.inputBTN}>
+							<button className={s.BTNSecStyle}>ОТПРАВИТЬ</button>
+						</button>
 					</BAnimated>
 				</div>
 			</div>

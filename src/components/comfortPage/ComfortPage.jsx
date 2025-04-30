@@ -67,14 +67,14 @@ const ComfortPage = () => {
 						здоровый и крепкий сон. Это важно для тех, кто следит за своим
 						здоровьем и здоровьем своих близких.
 					</div>
-					<BAnimated delay={1} className={s.botBTN}>
+					<div className={s.botBTN}>
 						<button className={s.infoBtn}>ЗАПОЛНИТЬ ЗАЯВКУ</button>
-					</BAnimated>
+					</div>
 				</LAnimated>
 				<LAnimated delay={4} x={0} className={s.circleBig}></LAnimated>
 				<div className={s.infoRight}>
 					<div className={s.imgLeft}>
-						<TAnimated delay={1} className={s.img11}></TAnimated>
+						<TAnimated delay={1} y={100} className={s.img11}></TAnimated>
 						<LAnimated delay={1.1} className={s.img22}></LAnimated>
 					</div>
 					<div className={s.imgRight}>

@@ -154,6 +154,7 @@
 	justify-content: center;
 	flex-direction: row;
 	margin-top: 40px;
+	transition: background 0.3s ease 0.01s;
 }
 .infoBtn {
 	font-family: 'RuberBold';
@@ -167,6 +168,22 @@
 	border: none;
 	box-shadow: inset 0px 0px 5px 0.5px rgba(34, 111, 33, 0.36);
 	letter-spacing: 2px;
+	transition: background 0.3s ease 0.01s;
+}
+.botBTN:hover {
+	cursor: pointer;
+	background-color: rgba(120, 192, 129, 0.25);
+	transition: 0.3s ease, background-color 0.3s ease;
+}
+.infoBtn:hover {
+	cursor: pointer;
+	background-color: rgba(84, 225, 101, 1);
+	transition: 0.3s ease, background-color 0.3s ease;
+}
+
+.infoBtn:active,
+.botBTN:active {
+	transform: scale(0.96);
 }
 
 .infoRight {

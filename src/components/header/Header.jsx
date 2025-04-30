@@ -8,11 +8,11 @@ const Header = () => {
 				<div className={s.headerLogo}></div>
 				<div className={s.headerInfo}>
 					<div className={s.infoText}>услуги</div>
+					<div className={s.infoText}>цены</div>
 					<div className={s.infoText}>о нас</div>
 					<div className={s.infoText}>польза продукта</div>
-					<div className={s.infoText}>оборудование</div>
 					<div className={s.infoText}>этапы работы</div>
-					<div className={s.infoText}>отзывы</div>
+					<div className={s.infoText}>контакты</div>
 				</div>
 				<button className={s.headerButton}>
 					<button className={s.buttonSecStyle}>СВЯЗАТЬСЯ</button>

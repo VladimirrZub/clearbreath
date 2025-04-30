@@ -12,6 +12,9 @@
 	align-items: center;
 	flex-direction: row;
 	top: 0px;
+	z-index: 100;
+	position: fixed;
+	border-radius: 0 0 93px 93px;
 }
 
 .headerMainContainer {
@@ -21,9 +24,6 @@
 	justify-content: space-between;
 	animation: fadeInDown 0.8s ease-out forwards;
 	align-items: center;
-	z-index: 100;
-	position: fixed;
-	margin-top: 25px;
 }
 
 @keyframes fadeInDown {
@@ -58,6 +58,16 @@
 	color: #495e4c;
 }
 
+.infoText:hover {
+	cursor: pointer;
+	color: rgba(124, 163, 129, 1);
+}
+
+.infoText:active {
+	cursor: pointer;
+	margin-top: 3px;
+}
+
 .headerButton {
 	width: 280px;
 	height: 100px;
@@ -70,6 +80,23 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: row;
+	transition: background 0.3s ease 0.01s;
+}
+
+.headerButton:hover {
+	cursor: pointer;
+	background-color: rgba(120, 192, 129, 0.25);
+	transition: 0.3s ease, background-color 0.3s ease;
+}
+.buttonSecStyle:hover {
+	cursor: pointer;
+	background-color: rgba(84, 225, 101, 1);
+	transition: 0.3s ease, background-color 0.3s ease;
+}
+
+.headerButton:active,
+.buttonSecStyle:active {
+	transform: scale(0.96);
 }
 
 .buttonSecStyle {
@@ -84,4 +111,5 @@
 	border: none;
 	box-shadow: inset 0px 0px 5px 0.5px rgba(34, 111, 33, 0.36);
 	letter-spacing: 2px;
+	transition: background 0.3s ease 0.01s;
 }
