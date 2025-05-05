@@ -1,13 +1,33 @@
-import React from 'react'
+import React, { useState } from 'react'
 import s from './Header.module.css'
 import { HashLink as Link } from 'react-router-hash-link'
+import RegistrationModal from '../modals/reg/RegistrationModal'
+import LoginModal from '../modals/login/LoginModal'
 
 const Header = () => {
+	const [isRegModalOpen, setIsRegModalOpen] = useState(false)
+	const [isLoginModalOpen, setIsLoginModalOpen] = useState(false)
+
+	const openRegModal = () => {
+		setIsRegModalOpen(true)
+		setIsLoginModalOpen(false)
+	}
+
+	const openLoginModal = () => {
+		setIsLoginModalOpen(true)
+		setIsRegModalOpen(false)
+	}
+
+	const closeModals = () => {
+		setIsRegModalOpen(false)
+		setIsLoginModalOpen(false)
+	}
 	const scrollWithOffset = el => {
 		const yOffset = -115
 		const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset
 		window.scrollTo({ top: y, behavior: 'smooth' })
 	}
+
 	return (
 		<div className={s.headerContainer}>
 			<div className={s.headerMainContainer}>
@@ -21,12 +41,7 @@ const Header = () => {
 				</Link>
 
 				<div className={s.headerInfo}>
-					<Link
-						smooth
-						scroll={scrollWithOffset}
-						style={{ textDecoration: 'none' }}
-						to='#uslugi'
-					>
+					<Link smooth style={{ textDecoration: 'none' }} to='#uslugi'>
 						<div className={s.infoText}>услуги</div>
 					</Link>
 					<Link
@@ -55,10 +70,22 @@ const Header = () => {
 						<div className={s.infoText}>контакты</div>
 					</Link>
 				</div>
-				<button className={s.headerButton}>
+				<button onClick={openRegModal} className={s.headerButton}>
 					<button className={s.buttonSecStyle}>Личный Кабинет</button>
 				</button>
 			</div>
+
+			<RegistrationModal
+				isOpen={isRegModalOpen}
+				onClose={closeModals}
+				onSwitchToLogin={openLoginModal}
+			/>
+
+			<LoginModal
+				isOpen={isLoginModalOpen}
+				onClose={closeModals}
+				onSwitchToRegister={openRegModal}
+			/>
 		</div>
 	)
 }

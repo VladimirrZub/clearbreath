@@ -113,6 +113,9 @@
 	margin-right: -10px;
 }
 
+.topBTN:hover {
+}
+
 .BTNImageTop {
 	width: 44px;
 	height: 44px;
@@ -140,6 +143,16 @@
 	margin-right: -10px;
 	background-color: #ffffff;
 	margin-top: 225px;
+}
+
+.downBTN:hover {
+	.BTNImageDown {
+		background-image: url(./Images/Cond.svg);
+		background-repeat: no-repeat;
+	}
+	.BTNTextDown {
+		color: rgba(84, 225, 101, 1);
+	}
 }
 
 .BTNImageDown {
