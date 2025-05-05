@@ -70,6 +70,7 @@ const Header = () => {
 						<div className={s.infoText}>контакты</div>
 					</Link>
 				</div>
+
 				<button onClick={openRegModal} className={s.headerButton}>
 					<button className={s.buttonSecStyle}>Личный Кабинет</button>
 				</button>
