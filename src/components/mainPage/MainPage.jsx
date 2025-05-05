@@ -1,15 +1,16 @@
 import React from 'react'
 import s from './MainPage.module.css'
 import LAnimated from '../Animated/LAnimated'
+import AnimatedLine from '../Animated/AnimatedLine'
 
 const MainPage = () => {
 	return (
-		<div className={s.MainContainer}>
+		<div id='main' className={s.MainContainer}>
 			<LAnimated delay={1} className={s.ContainerInfo}>
 				<div className={s.ContainerInfoMain}>
 					<div className={s.infoMainTop}>Чистый Воздух</div>
 					<div className={s.infoMainBot}>
-						<div className={s.mainBotLine}></div>
+						<AnimatedLine length={250} offsetY={0} delay={1} />
 						<div className={s.mainBotText}>Вместе С</div>
 					</div>
 				</div>

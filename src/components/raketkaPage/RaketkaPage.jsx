@@ -7,7 +7,7 @@ import TAnimated from '../Animated/TAnimated'
 
 const RaketkaPage = () => {
 	return (
-		<div className={s.mainContainer}>
+		<div id='steps' className={s.mainContainer}>
 			<div className={s.containerInfo}>
 				<LAnimated delay={1} className={s.infoTopText}>
 					Понятная и эффективная схема работы

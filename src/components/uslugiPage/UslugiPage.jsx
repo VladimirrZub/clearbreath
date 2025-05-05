@@ -2,16 +2,17 @@ import React from 'react'
 import s from './UslugiPage.module.css'
 import LAnimated from '../Animated/LAnimated'
 import RAnimated from '../Animated/RAnimated'
+import AnimatedLine from '../Animated/AnimatedLine'
 
 const UslugiPage = () => {
 	return (
-		<div className={s.mainUslugi}>
+		<div id='uslugi' className={s.mainUslugi}>
 			<div className={s.uslugiInfoAndBTN}>
 				<LAnimated delay={1} className={s.infoLeft}>
 					<div className={s.rightTop}>Предоставляемые</div>
 					<div className={s.rightUnderTop}>
 						<div className={s.underTopText}>Услуги</div>
-						<div className={s.underTopLine}>.</div>
+						<AnimatedLine length={325} offsetY={0} delay={1} />
 					</div>
 					<div className={s.rightDown}>
 						<div className={s.downText}>

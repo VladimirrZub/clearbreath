@@ -5,7 +5,7 @@ import RAnimated from '../Animated/RAnimated'
 
 const AboutUsPage = () => {
 	return (
-		<div className={s.mainContainer}>
+		<div id='us' className={s.mainContainer}>
 			<div className={s.containerInfo}>
 				<LAnimated delay={1.5} className={s.circleBig}></LAnimated>
 				<LAnimated delay={1} className={s.infoLeft}>

@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 const LAnimated = ({
 	children,
-	x = -250,
+	x = -150,
 	delay = 0,
 	duration = 0.5,
 	...props

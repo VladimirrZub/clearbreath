@@ -4,10 +4,11 @@ import LAnimated from '../Animated/LAnimated'
 import RAnimated from '../Animated/RAnimated'
 import BAnimated from '../Animated/BAnimated'
 import TAnimated from '../Animated/TAnimated'
+import AnimatedLine from '../Animated/AnimatedLine'
 
 const Footer = () => {
 	return (
-		<div className={s.mainContainer}>
+		<div id='footer' className={s.mainContainer}>
 			<div className={s.mainImage}></div>
 			<div className={s.containerInfo}>
 				<div className={s.infoLeft}>
@@ -21,7 +22,7 @@ const Footer = () => {
 						кондиционирования, предоставляющих высокий сервис и<br /> удобство
 						обслуживания нашим клиентам.
 					</LAnimated>
-					<div className={s.leftLine}></div>
+					<AnimatedLine length={540} offsetY={0} delay={1} />
 					<BAnimated delay={1} y={100} className={s.leftUnderText}>
 						Чистый воздух вместе с{'\u00A0'}
 						<span className={s.spanTextDif}>Clear Breath</span>

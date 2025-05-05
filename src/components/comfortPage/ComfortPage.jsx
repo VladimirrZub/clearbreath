@@ -7,7 +7,7 @@ import TAnimated from '../Animated/TAnimated'
 
 const ComfortPage = () => {
 	return (
-		<div className={s.mainContainer}>
+		<div id='comfort' className={s.mainContainer}>
 			<div className={s.containerInfo}>
 				<LAnimated delay={1} className={s.infoLeft}>
 					<div className={s.leftTopText}>

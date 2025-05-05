@@ -56,11 +56,6 @@
 	flex-direction: row;
 }
 
-.mainBotLine {
-	width: 200px;
-	height: 4px;
-}
-
 .mainBotText {
 	width: 430px;
 	height: 100px;

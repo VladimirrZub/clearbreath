@@ -2,16 +2,17 @@ import React from 'react'
 import s from './ComplexPage.module.css'
 import LAnimated from '../Animated/LAnimated'
 import RAnimated from '../Animated/RAnimated'
+import AnimatedLine from '../Animated/AnimatedLine'
 
 const ComplexPage = () => {
 	return (
-		<div className={s.mainContainer}>
+		<div id='complex' className={s.mainContainer}>
 			<div className={s.containerContain}>
 				<LAnimated delay={0.5} className={s.containTop}>
 					<div className={s.topTextUp}>Комплексное Решение По Монтажу</div>
 					<div className={s.topTextDown}>
 						<div className={s.TextDownTxt}>И Вентиляции Под Ключ</div>
-						<div className={s.TextDownLine}></div>
+						<AnimatedLine length={315} offsetY={0} delay={1} />
 					</div>
 				</LAnimated>
 				<div className={s.containMid}>

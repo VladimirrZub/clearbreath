@@ -3,6 +3,7 @@ import s from './StepsPage.module.css'
 import LAnimated from '../Animated/LAnimated'
 import RAnimated from '../Animated/RAnimated'
 import BAnimated from '../Animated/BAnimated'
+import AnimatedLine from '../Animated/AnimatedLine'
 
 const StepsPage = () => {
 	return (
@@ -12,7 +13,7 @@ const StepsPage = () => {
 					<LAnimated delay={1} className={s.infoLeft}>
 						<div className={s.leftTopInfo}>
 							<div className={s.topInfoText}>3 Простых Шага</div>
-							<div className={s.topInfoLine}></div>
+							<AnimatedLine length={130} offsetY={0} delay={1} />
 						</div>
 						<div className={s.leftBottomInfo}>К Очищению Воздуха</div>
 					</LAnimated>

@@ -43,6 +43,10 @@
 	background-image: url(./Images/HeaderLogo.svg);
 }
 
+.headerLogo:hover {
+	cursor: pointer;
+}
+
 .headerInfo {
 	width: 860px;
 	height: 24px;
@@ -50,6 +54,18 @@
 	justify-content: space-between;
 	align-items: center;
 	flex-direction: row;
+}
+
+.headerInfo a {
+	text-decoration: none !important;
+}
+
+.headerInfo a:hover {
+	text-decoration: none !important;
+}
+
+.headerInfo .infoText {
+	text-decoration: none !important;
 }
 
 .infoText {
