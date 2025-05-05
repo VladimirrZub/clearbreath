@@ -1,12 +1,24 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import s from './Header.module.css'
 import { HashLink as Link } from 'react-router-hash-link'
 import RegistrationModal from '../modals/reg/RegistrationModal'
 import LoginModal from '../modals/login/LoginModal'
+import { auth } from '../firebase'
+import { useNavigate } from 'react-router-dom'
 
 const Header = () => {
+	const navigate = useNavigate()
 	const [isRegModalOpen, setIsRegModalOpen] = useState(false)
 	const [isLoginModalOpen, setIsLoginModalOpen] = useState(false)
+	const [user, setUser] = useState(null)
+
+	// Отслеживаем состояние аутентификации
+	useEffect(() => {
+		const unsubscribe = auth.onAuthStateChanged(user => {
+			setUser(user)
+		})
+		return () => unsubscribe()
+	}, [])
 
 	const openRegModal = () => {
 		setIsRegModalOpen(true)
@@ -22,10 +34,23 @@ const Header = () => {
 		setIsRegModalOpen(false)
 		setIsLoginModalOpen(false)
 	}
+
+	const handleLogout = async () => {
+		try {
+			await auth.signOut()
+		} catch (error) {
+			console.error('Ошибка выхода:', error)
+		}
+	}
+
 	const scrollWithOffset = el => {
 		const yOffset = -115
 		const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset
 		window.scrollTo({ top: y, behavior: 'smooth' })
+	}
+
+	const handleProfileClick = () => {
+		navigate('/profile')
 	}
 
 	return (
@@ -71,9 +96,20 @@ const Header = () => {
 					</Link>
 				</div>
 
-				<button onClick={openRegModal} className={s.headerButton}>
-					<button className={s.buttonSecStyle}>Личный Кабинет</button>
-				</button>
+				{user ? (
+					<button
+						onClick={() => navigate('/profile')}
+						className={`${s.headerButton} ${s.userButton}`}
+					>
+						<button className={s.buttonSecStyle}>
+							{user.displayName || user.email.split('@')[0]}
+						</button>
+					</button>
+				) : (
+					<button onClick={openLoginModal} className={s.headerButton}>
+						<button className={s.buttonSecStyle}>Личный Кабинет</button>
+					</button>
+				)}
 			</div>
 
 			<RegistrationModal
