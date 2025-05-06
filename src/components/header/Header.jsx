@@ -98,7 +98,7 @@ const Header = () => {
 
 				{user ? (
 					<button
-						onClick={() => navigate('/profile')}
+						onClick={() => navigate('/ProfilePage')}
 						className={`${s.headerButton} ${s.userButton}`}
 					>
 						<button className={s.buttonSecStyle}>
